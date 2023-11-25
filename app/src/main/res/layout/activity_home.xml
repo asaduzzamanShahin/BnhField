@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/titleId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bangladesh Herbarium"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_margin="50dp"/>
+
+    <EditText
+        android:id="@+id/snameID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/titleId"
+        android:hint="Scientific Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/familyID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/snameID"
+        android:hint="Family"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/localID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/familyID"
+        android:hint="Local Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/locallyID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/localID"
+        android:hint="Locality"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/habitID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/locallyID"
+        android:hint="Habit"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/HabitalID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/habitID"
+        android:hint="Habital"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/useID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/HabitalID"
+        android:hint="Uses"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <EditText
+        android:id="@+id/CollectID"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_transparent"
+        android:layout_below="@+id/useID"
+        android:hint="Collector Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawablePadding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/CollectID"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:src="@drawable/note"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/voicenote"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/image"/>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
