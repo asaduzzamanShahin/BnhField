@@ -44,14 +44,14 @@ return super.onOptionsItemSelected(item);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+       /* navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @SuppressLint("NonConstantResourceId")
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                switch (item.getItemId())
                {
-                   case R.id.state:
+                  const case R.id.state:
                    {
                        Toast.makeText(MainActivity.this, "Home Selector",Toast.LENGTH_SHORT).show();break;
                    }
@@ -95,7 +95,7 @@ return super.onOptionsItemSelected(item);
 
                 return false;
             }
-        });
+        });*/
 
     }
 

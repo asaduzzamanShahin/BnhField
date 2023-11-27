@@ -22,15 +22,6 @@ ImageView immage;
         setContentView(R.layout.activity_splash_screen);
 
 
-        /*immage=(ImageView)findViewById(R.id.splashID);
-        immage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SplashScreen.this, Login.class);
-                startActivity(intent);
-            }
-        });*/
-
 
         new Handler().postDelayed(new Runnable() {
 
