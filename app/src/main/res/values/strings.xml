@@ -2,4 +2,29 @@
     <string name="app_name">BnhField</string>
     <string name="open">Open Navigation Drawer</string>
     <string name="close">Close Navigation Drawer</string>
+    <string-array name="Files">
+        <item>Tree</item>
+        <item>plant</item>
+        <item>new plant</item>
+        <item>new speciman</item>
+        <item>houseplants</item>
+        <item>succulents</item>
+        <item>snake plant </item>
+        <item>Asteraceae</item>
+        <item>Asteraceae</item>
+        <item>Apocynceae</item>
+        <item>erecta</item>
+        <item>Tagetes </item>
+        <item>houstonianum</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+        <item>plant</item>
+    </string-array>
 </resources>
