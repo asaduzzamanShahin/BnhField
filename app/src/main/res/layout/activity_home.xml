@@ -29,7 +29,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/titleId"
         android:hint="Scientific Name"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -42,7 +42,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/snameID"
         android:hint="Family"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -55,7 +55,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/familyID"
         android:hint="Local Name"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -68,8 +68,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/localID"
         android:hint="Locality"
-        android:textColorHint="@color/white"
-        android:textColor="@color/white"
+        android:textColorHint="#959494"
         android:layout_margin="10dp"
         android:padding="20dp"
         android:drawablePadding="20dp"/>
@@ -81,7 +80,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/locallyID"
         android:hint="Habit"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -94,7 +93,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/habitID"
         android:hint="Habital"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -107,7 +106,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/HabitalID"
         android:hint="Uses"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -120,7 +119,7 @@
         android:background="@drawable/circle_transparent"
         android:layout_below="@+id/useID"
         android:hint="Collector Name"
-        android:textColorHint="@color/white"
+        android:textColorHint="#959494"
         android:textColor="@color/white"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -131,19 +130,23 @@
         android:layout_height="120dp"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="15dp"
+        android:layout_marginLeft="20sp"
         android:layout_below="@+id/CollectID"
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/noteID"
             android:layout_width="110dp"
             android:layout_height="80dp"
             android:src="@drawable/note"/>
         <ImageView
+            android:id="@+id/voiceNID"
             android:layout_width="110dp"
             android:layout_height="80dp"
             android:layout_marginLeft="15dp"
             android:src="@drawable/voicenote"/>
         <ImageView
+            android:id="@+id/pickImg"
             android:layout_width="110dp"
             android:layout_height="80dp"
             android:layout_marginLeft="15dp"
@@ -152,6 +155,17 @@
 
     </LinearLayout>
 
+        <Button
+            android:id="@+id/savebtn"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="60dp"
+            android:textSize="27dp"
+            android:background="@drawable/buttonshape"
+            android:text="Save"/>
     </LinearLayout>
+
+
 
 </ScrollView>

@@ -16,19 +16,21 @@ import android.widget.Toast;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity {
-DrawerLayout drawerLayout;
+
+
+/*DrawerLayout drawerLayout;
 NavigationView navigationView;
-ActionBarDrawerToggle drawerToggle;
+ActionBarDrawerToggle drawerToggle;*/
 
 
-    @Override
+ /*   @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem  item){
     if (drawerToggle.onOptionsItemSelected(item)){
         return true;
 
     }
 return super.onOptionsItemSelected(item);
-}
+}*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,12 +38,12 @@ return super.onOptionsItemSelected(item);
 
 //navigation drawer code here
 
-        drawerLayout= findViewById(R.id.drawer_layout);
+        /*drawerLayout= findViewById(R.id.drawer_layout);
         navigationView=findViewById(R.id.navView);
         drawerToggle= new ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close);
         drawerLayout.addDrawerListener(drawerToggle);
         drawerToggle.syncState();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);*/
 
 
        /* navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -99,10 +101,7 @@ return super.onOptionsItemSelected(item);
 
     }
 
-    /**
-     *
-     */
-    @Override
+   /* @Override
     public void onBackPressed() {
 
         if (drawerLayout.isDrawerOpen(GravityCompat.START))
@@ -110,7 +109,6 @@ return super.onOptionsItemSelected(item);
             drawerLayout.closeDrawer(GravityCompat.START);
         }else {
             super.onBackPressed();
-        }
+        }*/
 
     }
-}
